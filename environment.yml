@@ -1,0 +1,13 @@
+name: LATAM-Airlines
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8-13
+  - jupyter=1.0.0
+  - pandas=1.4.3
+  - pip
+  - pip:
+    - scikit-learn==0.23.2
+    - numpy==1.18.5
+    
