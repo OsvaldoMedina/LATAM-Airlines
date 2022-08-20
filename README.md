@@ -35,7 +35,7 @@ aterrizó o despegó de SCL. Para cada vuelo se cuenta con la siguiente informac
 ### Desafío
 
 ##### 1. ¿Cómo se distribuyen los datos? , ¿Qué te llama la atención o cuál es tu conclusión sobre esto?
-#### 2. Genera las columnas adicionales y luego expórtelas en un archivo synthetic_features.csv :
+##### 2. Genera las columnas adicionales y luego expórtelas en un archivo synthetic_features.csv :
 * **temporada_alta** : 1 si Fecha-I está entre 15-Dic y 3-Mar, o 15-Jul y 31-Jul, o 11-Sep y 30-Sep, 0 si no.
 * **dif_min** : diferencia en minutos entre Fecha-O y Fecha-I .
 * **atraso_15** : 1 si dif_min > 15, 0 si no.
